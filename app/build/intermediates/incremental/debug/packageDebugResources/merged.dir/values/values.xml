@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_gray">#ededed</color>
+    <color name="background_snackbar">#323232</color>
+    <color name="black">#FF000000</color>
+    <color name="colorAccent">#20d3b0</color>
+    <color name="colorPrimary">#00bfa5</color>
+    <color name="colorPrimaryDark">#009688</color>
+    <color name="dark_gray">#ff707070</color>
+    <color name="dark_red_gray">#ff201010</color>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="light_gray">#a0a0a0</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="text_black_87">#de000000</color>
+    <color name="transparent_white">#33FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_gray">#d3d3d3</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="interactive_button_height">50dp</dimen>
+    <dimen name="interactive_button_width">242dp</dimen>
+    <dimen name="login_box_height">40dp</dimen>
+    <dimen name="login_box_width">290dp</dimen>
+    <dimen name="marginTop_far">12dp</dimen>
+    <dimen name="marginTop_short">7dp</dimen>
+    <dimen name="normal_box_height">60dp</dimen>
+    <dimen name="signup_box_height">40dp</dimen>
+    <dimen name="social_signin_btn">45dp</dimen>
+    <string name="app_name">Cardivu Android Demo</string>
+    <string name="company_name">ⓒ 스마트디아그노시스</string>
+    <string name="default_web_client_id" translatable="false">109139922684-uiesmk5tiq64f6kd56bganme4c2vn41t.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://cardivu.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">109139922684</string>
+    <string name="google_api_key" translatable="false">AIzaSyBbamaefrbHDE25RvtvqHV9dpP-HOC0W8g</string>
+    <string name="google_app_id" translatable="false">1:109139922684:android:f8970fc17ffc03bba05179</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBbamaefrbHDE25RvtvqHV9dpP-HOC0W8g</string>
+    <string name="google_storage_bucket" translatable="false">cardivu.appspot.com</string>
+    <string name="instruction" translatable="false">Please press any button above to start</string>
+    <string name="load_picture" translatable="false">Load Picture</string>
+    <string name="load_video" translatable="false">Load Video</string>
+    <string name="project_id" translatable="false">cardivu</string>
+    <string name="start_camera" translatable="false">Start Camera</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="FullScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="Theme.CardiVu_D" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        
+    </style>
+</resources>

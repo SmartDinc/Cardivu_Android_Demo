@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">109139922684-uiesmk5tiq64f6kd56bganme4c2vn41t.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://cardivu.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">109139922684</string>
+    <string name="google_api_key" translatable="false">AIzaSyBbamaefrbHDE25RvtvqHV9dpP-HOC0W8g</string>
+    <string name="google_app_id" translatable="false">1:109139922684:android:f8970fc17ffc03bba05179</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBbamaefrbHDE25RvtvqHV9dpP-HOC0W8g</string>
+    <string name="google_storage_bucket" translatable="false">cardivu.appspot.com</string>
+    <string name="project_id" translatable="false">cardivu</string>
+</resources>

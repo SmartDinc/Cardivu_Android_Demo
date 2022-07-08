@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "net.sdcor.cardivu_android_demo.app-mergeDebugResources-41:/values-h480dp-land-v13/values-h480dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\MOON\\.gradle\\caches\\transforms-3\\5ee5e4f51178b7a2c1969e8f03236c7b\\transformed\\material-1.6.1\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,170,226,293,358,413,478,547",
+                        "endColumns": "58,55,55,66,64,54,64,68,68",
+                        "endOffsets": "109,165,221,288,353,408,473,542,611"
+                    }
+                }
+            ]
+        }
+    ]
+}

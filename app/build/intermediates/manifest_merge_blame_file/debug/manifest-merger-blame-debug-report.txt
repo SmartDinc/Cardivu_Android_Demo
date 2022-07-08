@@ -1,0 +1,291 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="net.sdcor.cardivu_android_demo"
+4    android:versionCode="1"
+5    android:versionName="1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml
+10
+11    <meta-data
+11-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:6:5-8:65
+12        android:name="com.google.android.gms.version"
+12-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:7:9-54
+13        android:value="@integer/google_play_services_version" />
+13-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:8:9-62
+14
+15    <supports-screens
+15-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:10:5-15:39
+16        android:anyDensity="true"
+16-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:11:9-34
+17        android:largeScreens="true"
+17-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:12:9-36
+18        android:normalScreens="true"
+18-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:13:9-37
+19        android:resizeable="true"
+19-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:14:9-34
+20        android:smallScreens="true" />
+20-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:15:9-36
+21
+22    <uses-permission android:name="android.location.CAMERA" />
+22-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:17:5-63
+22-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:17:22-60
+23
+24    <uses-feature
+24-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:18:5-20:36
+25        android:name="android.hardware.camera"
+25-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:19:9-47
+26        android:required="false" />
+26-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:20:9-33
+27
+28    <uses-permission android:name="android.permission.INTERNET" />
+28-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:22:5-67
+28-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:22:22-64
+29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+29-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:23:5-79
+29-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:23:22-76
+30    <uses-permission android:name="android.permission.CAMERA" />
+30-->[:SDAPI] D:\staff hand over\Cardivu_Android_Demo\SDAPI\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-65
+30-->[:SDAPI] D:\staff hand over\Cardivu_Android_Demo\SDAPI\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-62
+31
+32    <queries>
+32-->[androidx.camera:camera-extensions:1.2.0-alpha03] C:\Users\MOON\.gradle\caches\transforms-3\0ae615f444818d7914b0e06ccb011826\transformed\jetified-camera-extensions-1.2.0-alpha03\AndroidManifest.xml:23:5-27:15
+33        <intent>
+33-->[androidx.camera:camera-extensions:1.2.0-alpha03] C:\Users\MOON\.gradle\caches\transforms-3\0ae615f444818d7914b0e06ccb011826\transformed\jetified-camera-extensions-1.2.0-alpha03\AndroidManifest.xml:24:9-26:18
+34            <action android:name="androidx.camera.extensions.action.VENDOR_ACTION" />
+34-->[androidx.camera:camera-extensions:1.2.0-alpha03] C:\Users\MOON\.gradle\caches\transforms-3\0ae615f444818d7914b0e06ccb011826\transformed\jetified-camera-extensions-1.2.0-alpha03\AndroidManifest.xml:25:13-86
+34-->[androidx.camera:camera-extensions:1.2.0-alpha03] C:\Users\MOON\.gradle\caches\transforms-3\0ae615f444818d7914b0e06ccb011826\transformed\jetified-camera-extensions-1.2.0-alpha03\AndroidManifest.xml:25:21-83
+35        </intent>
+36    </queries>
+37
+38    <application
+38-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:25:5-44:19
+39        android:allowBackup="true"
+39-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:26:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.8.0] C:\Users\MOON\.gradle\caches\transforms-3\7411e7be1e37964f2860ce7a69094f3b\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+41        android:debuggable="true"
+42        android:extractNativeLibs="false"
+43        android:hardwareAccelerated="true"
+43-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:31:9-43
+44        android:icon="@drawable/ic_logo"
+44-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:27:9-41
+45        android:label="@string/app_name"
+45-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:28:9-41
+46        android:networkSecurityConfig="@xml/network_security_config"
+46-->[:SDAPI] D:\staff hand over\Cardivu_Android_Demo\SDAPI\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:18-78
+47        android:supportsRtl="true"
+47-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:29:9-35
+48        android:testOnly="true"
+49        android:theme="@style/FullScreenTheme"
+49-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:32:9-47
+50        android:usesCleartextTraffic="true" >
+50-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:30:9-44
+51        <activity
+51-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:34:9-43:20
+52            android:name="net.sdcor.cardivu_android_demo.MainActivity"
+52-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:35:13-71
+53            android:exported="true"
+53-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:36:13-36
+54            android:screenOrientation="portrait" >
+54-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:37:13-49
+55            <intent-filter>
+55-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:38:13-42:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:39:17-69
+56-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:39:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:41:17-77
+58-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:41:27-74
+59            </intent-filter>
+60        </activity>
+61
+62        <meta-data
+62-->[:SDAPI] D:\staff hand over\Cardivu_Android_Demo\SDAPI\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-20:36
+63            android:name="com.google.mlkit.vision.DEPENDENCIES"
+63-->[:SDAPI] D:\staff hand over\Cardivu_Android_Demo\SDAPI\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-64
+64            android:value="face" />
+64-->[:SDAPI] D:\staff hand over\Cardivu_Android_Demo\SDAPI\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-33
+65
+66        <service
+66-->[com.google.firebase:firebase-ml-vision:24.1.0] C:\Users\MOON\.gradle\caches\transforms-3\c76a484fe03fb2a63124f6bff8ad6994\transformed\jetified-firebase-ml-vision-24.1.0\AndroidManifest.xml:9:9-15:19
+67            android:name="com.google.firebase.components.ComponentDiscoveryService"
+67-->[com.google.firebase:firebase-ml-vision:24.1.0] C:\Users\MOON\.gradle\caches\transforms-3\c76a484fe03fb2a63124f6bff8ad6994\transformed\jetified-firebase-ml-vision-24.1.0\AndroidManifest.xml:10:13-84
+68            android:directBootAware="true"
+68-->[com.google.firebase:firebase-common:19.3.0] C:\Users\MOON\.gradle\caches\transforms-3\2d327cda83badbb064f0297267b258db\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+69            android:exported="false" >
+69-->[com.google.firebase:firebase-ml-vision:24.1.0] C:\Users\MOON\.gradle\caches\transforms-3\c76a484fe03fb2a63124f6bff8ad6994\transformed\jetified-firebase-ml-vision-24.1.0\AndroidManifest.xml:11:13-37
+70            <meta-data
+70-->[com.google.firebase:firebase-ml-vision:24.1.0] C:\Users\MOON\.gradle\caches\transforms-3\c76a484fe03fb2a63124f6bff8ad6994\transformed\jetified-firebase-ml-vision-24.1.0\AndroidManifest.xml:12:13-14:85
+71                android:name="com.google.firebase.components:com.google.firebase.ml.vision.VisionRegistrar"
+71-->[com.google.firebase:firebase-ml-vision:24.1.0] C:\Users\MOON\.gradle\caches\transforms-3\c76a484fe03fb2a63124f6bff8ad6994\transformed\jetified-firebase-ml-vision-24.1.0\AndroidManifest.xml:13:17-108
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-ml-vision:24.1.0] C:\Users\MOON\.gradle\caches\transforms-3\c76a484fe03fb2a63124f6bff8ad6994\transformed\jetified-firebase-ml-vision-24.1.0\AndroidManifest.xml:14:17-82
+73            <meta-data
+73-->[com.google.firebase:firebase-ml-common:22.1.2] C:\Users\MOON\.gradle\caches\transforms-3\3b8334bfd704e62c689f6b403cdcea11\transformed\jetified-firebase-ml-common-22.1.2\AndroidManifest.xml:11:13-13:85
+74                android:name="com.google.firebase.components:com.google.firebase.ml.common.CommonComponentRegistrar"
+74-->[com.google.firebase:firebase-ml-common:22.1.2] C:\Users\MOON\.gradle\caches\transforms-3\3b8334bfd704e62c689f6b403cdcea11\transformed\jetified-firebase-ml-common-22.1.2\AndroidManifest.xml:12:17-117
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.firebase:firebase-ml-common:22.1.2] C:\Users\MOON\.gradle\caches\transforms-3\3b8334bfd704e62c689f6b403cdcea11\transformed\jetified-firebase-ml-common-22.1.2\AndroidManifest.xml:13:17-82
+76            <meta-data
+76-->[com.google.firebase:firebase-installations:16.3.1] C:\Users\MOON\.gradle\caches\transforms-3\acd29b593a532f113597a39beda60a00\transformed\jetified-firebase-installations-16.3.1\AndroidManifest.xml:17:13-19:85
+77                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+77-->[com.google.firebase:firebase-installations:16.3.1] C:\Users\MOON\.gradle\caches\transforms-3\acd29b593a532f113597a39beda60a00\transformed\jetified-firebase-installations-16.3.1\AndroidManifest.xml:18:17-127
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-installations:16.3.1] C:\Users\MOON\.gradle\caches\transforms-3\acd29b593a532f113597a39beda60a00\transformed\jetified-firebase-installations-16.3.1\AndroidManifest.xml:19:17-82
+79        </service>
+80        <service
+80-->[androidx.room:room-runtime:2.4.2] C:\Users\MOON\.gradle\caches\transforms-3\f3b845d2d0064c8fbb52581bfdffaf6f\transformed\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
+81            android:name="androidx.room.MultiInstanceInvalidationService"
+81-->[androidx.room:room-runtime:2.4.2] C:\Users\MOON\.gradle\caches\transforms-3\f3b845d2d0064c8fbb52581bfdffaf6f\transformed\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
+82            android:directBootAware="true"
+82-->[androidx.room:room-runtime:2.4.2] C:\Users\MOON\.gradle\caches\transforms-3\f3b845d2d0064c8fbb52581bfdffaf6f\transformed\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
+83            android:exported="false" />
+83-->[androidx.room:room-runtime:2.4.2] C:\Users\MOON\.gradle\caches\transforms-3\f3b845d2d0064c8fbb52581bfdffaf6f\transformed\room-runtime-2.4.2\AndroidManifest.xml:28:13-37
+84
+85        <uses-library
+85-->[androidx.camera:camera-extensions:1.2.0-alpha03] C:\Users\MOON\.gradle\caches\transforms-3\0ae615f444818d7914b0e06ccb011826\transformed\jetified-camera-extensions-1.2.0-alpha03\AndroidManifest.xml:30:9-32:40
+86            android:name="androidx.camera.extensions.impl"
+86-->[androidx.camera:camera-extensions:1.2.0-alpha03] C:\Users\MOON\.gradle\caches\transforms-3\0ae615f444818d7914b0e06ccb011826\transformed\jetified-camera-extensions-1.2.0-alpha03\AndroidManifest.xml:31:13-59
+87            android:required="false" />
+87-->[androidx.camera:camera-extensions:1.2.0-alpha03] C:\Users\MOON\.gradle\caches\transforms-3\0ae615f444818d7914b0e06ccb011826\transformed\jetified-camera-extensions-1.2.0-alpha03\AndroidManifest.xml:32:13-37
+88
+89        <service
+89-->[androidx.camera:camera-camera2:1.2.0-alpha03] C:\Users\MOON\.gradle\caches\transforms-3\c6bc0017ac3a6efd32cb4ff8c674efdc\transformed\jetified-camera-camera2-1.2.0-alpha03\AndroidManifest.xml:25:9-34:19
+90            android:name="androidx.camera.core.impl.MetadataHolderService"
+90-->[androidx.camera:camera-camera2:1.2.0-alpha03] C:\Users\MOON\.gradle\caches\transforms-3\c6bc0017ac3a6efd32cb4ff8c674efdc\transformed\jetified-camera-camera2-1.2.0-alpha03\AndroidManifest.xml:26:13-75
+91            android:enabled="false"
+91-->[androidx.camera:camera-camera2:1.2.0-alpha03] C:\Users\MOON\.gradle\caches\transforms-3\c6bc0017ac3a6efd32cb4ff8c674efdc\transformed\jetified-camera-camera2-1.2.0-alpha03\AndroidManifest.xml:27:13-36
+92            android:exported="false" >
+92-->[androidx.camera:camera-camera2:1.2.0-alpha03] C:\Users\MOON\.gradle\caches\transforms-3\c6bc0017ac3a6efd32cb4ff8c674efdc\transformed\jetified-camera-camera2-1.2.0-alpha03\AndroidManifest.xml:28:13-37
+93            <meta-data
+93-->[androidx.camera:camera-camera2:1.2.0-alpha03] C:\Users\MOON\.gradle\caches\transforms-3\c6bc0017ac3a6efd32cb4ff8c674efdc\transformed\jetified-camera-camera2-1.2.0-alpha03\AndroidManifest.xml:31:13-33:89
+94                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+94-->[androidx.camera:camera-camera2:1.2.0-alpha03] C:\Users\MOON\.gradle\caches\transforms-3\c6bc0017ac3a6efd32cb4ff8c674efdc\transformed\jetified-camera-camera2-1.2.0-alpha03\AndroidManifest.xml:32:17-103
+95                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+95-->[androidx.camera:camera-camera2:1.2.0-alpha03] C:\Users\MOON\.gradle\caches\transforms-3\c6bc0017ac3a6efd32cb4ff8c674efdc\transformed\jetified-camera-camera2-1.2.0-alpha03\AndroidManifest.xml:33:17-86
+96        </service>
+97        <service
+97-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\MOON\.gradle\caches\transforms-3\62fdd570321066d3a9711e50d40cda5b\transformed\jetified-play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:9:9-15:19
+98            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+98-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\MOON\.gradle\caches\transforms-3\62fdd570321066d3a9711e50d40cda5b\transformed\jetified-play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:10:13-91
+99            android:directBootAware="true"
+99-->[com.google.mlkit:common:18.1.0] C:\Users\MOON\.gradle\caches\transforms-3\e92abbf67a3f48323875d82e51cb6a63\transformed\jetified-common-18.1.0\AndroidManifest.xml:17:13-43
+100            android:exported="false" >
+100-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\MOON\.gradle\caches\transforms-3\62fdd570321066d3a9711e50d40cda5b\transformed\jetified-play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:11:13-37
+101            <meta-data
+101-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\MOON\.gradle\caches\transforms-3\62fdd570321066d3a9711e50d40cda5b\transformed\jetified-play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:12:13-14:85
+102                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+102-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\MOON\.gradle\caches\transforms-3\62fdd570321066d3a9711e50d40cda5b\transformed\jetified-play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:13:17-114
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\MOON\.gradle\caches\transforms-3\62fdd570321066d3a9711e50d40cda5b\transformed\jetified-play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:14:17-82
+104            <meta-data
+104-->[com.google.mlkit:vision-common:17.1.0] C:\Users\MOON\.gradle\caches\transforms-3\e208ddfae921bb73452170b25b7d28ab\transformed\jetified-vision-common-17.1.0\AndroidManifest.xml:12:13-14:85
+105                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+105-->[com.google.mlkit:vision-common:17.1.0] C:\Users\MOON\.gradle\caches\transforms-3\e208ddfae921bb73452170b25b7d28ab\transformed\jetified-vision-common-17.1.0\AndroidManifest.xml:13:17-124
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.mlkit:vision-common:17.1.0] C:\Users\MOON\.gradle\caches\transforms-3\e208ddfae921bb73452170b25b7d28ab\transformed\jetified-vision-common-17.1.0\AndroidManifest.xml:14:17-82
+107            <meta-data
+107-->[com.google.mlkit:common:18.1.0] C:\Users\MOON\.gradle\caches\transforms-3\e92abbf67a3f48323875d82e51cb6a63\transformed\jetified-common-18.1.0\AndroidManifest.xml:20:13-22:85
+108                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+108-->[com.google.mlkit:common:18.1.0] C:\Users\MOON\.gradle\caches\transforms-3\e92abbf67a3f48323875d82e51cb6a63\transformed\jetified-common-18.1.0\AndroidManifest.xml:21:17-120
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.mlkit:common:18.1.0] C:\Users\MOON\.gradle\caches\transforms-3\e92abbf67a3f48323875d82e51cb6a63\transformed\jetified-common-18.1.0\AndroidManifest.xml:22:17-82
+110        </service>
+111
+112        <provider
+112-->[com.google.mlkit:common:18.1.0] C:\Users\MOON\.gradle\caches\transforms-3\e92abbf67a3f48323875d82e51cb6a63\transformed\jetified-common-18.1.0\AndroidManifest.xml:9:9-13:38
+113            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+113-->[com.google.mlkit:common:18.1.0] C:\Users\MOON\.gradle\caches\transforms-3\e92abbf67a3f48323875d82e51cb6a63\transformed\jetified-common-18.1.0\AndroidManifest.xml:10:13-78
+114            android:authorities="net.sdcor.cardivu_android_demo.mlkitinitprovider"
+114-->[com.google.mlkit:common:18.1.0] C:\Users\MOON\.gradle\caches\transforms-3\e92abbf67a3f48323875d82e51cb6a63\transformed\jetified-common-18.1.0\AndroidManifest.xml:11:13-69
+115            android:exported="false"
+115-->[com.google.mlkit:common:18.1.0] C:\Users\MOON\.gradle\caches\transforms-3\e92abbf67a3f48323875d82e51cb6a63\transformed\jetified-common-18.1.0\AndroidManifest.xml:12:13-37
+116            android:initOrder="99" />
+116-->[com.google.mlkit:common:18.1.0] C:\Users\MOON\.gradle\caches\transforms-3\e92abbf67a3f48323875d82e51cb6a63\transformed\jetified-common-18.1.0\AndroidManifest.xml:13:13-35
+117
+118        <activity
+118-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\MOON\.gradle\caches\transforms-3\eb71051a0f519e72cb1f9a18561b393e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+119            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+119-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\MOON\.gradle\caches\transforms-3\eb71051a0f519e72cb1f9a18561b393e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+120            android:exported="false"
+120-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\MOON\.gradle\caches\transforms-3\eb71051a0f519e72cb1f9a18561b393e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+121            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+121-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\MOON\.gradle\caches\transforms-3\eb71051a0f519e72cb1f9a18561b393e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+122
+123        <provider
+123-->[com.google.firebase:firebase-common:19.3.0] C:\Users\MOON\.gradle\caches\transforms-3\2d327cda83badbb064f0297267b258db\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+124            android:name="com.google.firebase.provider.FirebaseInitProvider"
+124-->[com.google.firebase:firebase-common:19.3.0] C:\Users\MOON\.gradle\caches\transforms-3\2d327cda83badbb064f0297267b258db\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+125            android:authorities="net.sdcor.cardivu_android_demo.firebaseinitprovider"
+125-->[com.google.firebase:firebase-common:19.3.0] C:\Users\MOON\.gradle\caches\transforms-3\2d327cda83badbb064f0297267b258db\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+126            android:exported="false"
+126-->[com.google.firebase:firebase-common:19.3.0] C:\Users\MOON\.gradle\caches\transforms-3\2d327cda83badbb064f0297267b258db\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+127            android:initOrder="100" />
+127-->[com.google.firebase:firebase-common:19.3.0] C:\Users\MOON\.gradle\caches\transforms-3\2d327cda83badbb064f0297267b258db\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+128
+129        <meta-data
+129-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:6:5-8:65
+130            android:name="com.google.android.gms.version"
+130-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:7:9-54
+131            android:value="@integer/google_play_services_version" />
+131-->D:\staff hand over\Cardivu_Android_Demo\app\src\main\AndroidManifest.xml:8:9-62
+132
+133        <provider
+133-->[androidx.emoji2:emoji2:1.0.0] C:\Users\MOON\.gradle\caches\transforms-3\4cfa4da741a3bdd9b2b4a7f49fd72891\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+134            android:name="androidx.startup.InitializationProvider"
+134-->[androidx.emoji2:emoji2:1.0.0] C:\Users\MOON\.gradle\caches\transforms-3\4cfa4da741a3bdd9b2b4a7f49fd72891\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+135            android:authorities="net.sdcor.cardivu_android_demo.androidx-startup"
+135-->[androidx.emoji2:emoji2:1.0.0] C:\Users\MOON\.gradle\caches\transforms-3\4cfa4da741a3bdd9b2b4a7f49fd72891\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+136            android:exported="false" >
+136-->[androidx.emoji2:emoji2:1.0.0] C:\Users\MOON\.gradle\caches\transforms-3\4cfa4da741a3bdd9b2b4a7f49fd72891\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+137            <meta-data
+137-->[androidx.emoji2:emoji2:1.0.0] C:\Users\MOON\.gradle\caches\transforms-3\4cfa4da741a3bdd9b2b4a7f49fd72891\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+138                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+138-->[androidx.emoji2:emoji2:1.0.0] C:\Users\MOON\.gradle\caches\transforms-3\4cfa4da741a3bdd9b2b4a7f49fd72891\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+139                android:value="androidx.startup" />
+139-->[androidx.emoji2:emoji2:1.0.0] C:\Users\MOON\.gradle\caches\transforms-3\4cfa4da741a3bdd9b2b4a7f49fd72891\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+140            <meta-data
+140-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\MOON\.gradle\caches\transforms-3\7d5cbb90a2d0ffbd7fd09e44bc5f4382\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+141                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+141-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\MOON\.gradle\caches\transforms-3\7d5cbb90a2d0ffbd7fd09e44bc5f4382\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+142                android:value="androidx.startup" />
+142-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\MOON\.gradle\caches\transforms-3\7d5cbb90a2d0ffbd7fd09e44bc5f4382\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+143        </provider>
+144
+145        <service
+145-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\MOON\.gradle\caches\transforms-3\734efa5f6f69fe73d50ec29e91195bf3\transformed\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:29:9-35:19
+146            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+146-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\MOON\.gradle\caches\transforms-3\734efa5f6f69fe73d50ec29e91195bf3\transformed\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:30:13-103
+147            android:exported="false" >
+147-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\MOON\.gradle\caches\transforms-3\734efa5f6f69fe73d50ec29e91195bf3\transformed\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:31:13-37
+148            <meta-data
+148-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\MOON\.gradle\caches\transforms-3\734efa5f6f69fe73d50ec29e91195bf3\transformed\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:32:13-34:39
+149                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+149-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\MOON\.gradle\caches\transforms-3\734efa5f6f69fe73d50ec29e91195bf3\transformed\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:33:17-94
+150                android:value="cct" />
+150-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\MOON\.gradle\caches\transforms-3\734efa5f6f69fe73d50ec29e91195bf3\transformed\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:34:17-36
+151        </service>
+152        <service
+152-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\MOON\.gradle\caches\transforms-3\1220d2eb21b9572c8f1404db83b2b061\transformed\jetified-transport-runtime-3.1.0\AndroidManifest.xml:26:9-30:19
+153            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+153-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\MOON\.gradle\caches\transforms-3\1220d2eb21b9572c8f1404db83b2b061\transformed\jetified-transport-runtime-3.1.0\AndroidManifest.xml:27:13-117
+154            android:exported="false"
+154-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\MOON\.gradle\caches\transforms-3\1220d2eb21b9572c8f1404db83b2b061\transformed\jetified-transport-runtime-3.1.0\AndroidManifest.xml:28:13-37
+155            android:permission="android.permission.BIND_JOB_SERVICE" >
+155-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\MOON\.gradle\caches\transforms-3\1220d2eb21b9572c8f1404db83b2b061\transformed\jetified-transport-runtime-3.1.0\AndroidManifest.xml:29:13-69
+156        </service>
+157
+158        <receiver
+158-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\MOON\.gradle\caches\transforms-3\1220d2eb21b9572c8f1404db83b2b061\transformed\jetified-transport-runtime-3.1.0\AndroidManifest.xml:32:9-34:40
+159            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+159-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\MOON\.gradle\caches\transforms-3\1220d2eb21b9572c8f1404db83b2b061\transformed\jetified-transport-runtime-3.1.0\AndroidManifest.xml:33:13-132
+160            android:exported="false" />
+160-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\MOON\.gradle\caches\transforms-3\1220d2eb21b9572c8f1404db83b2b061\transformed\jetified-transport-runtime-3.1.0\AndroidManifest.xml:34:13-37
+161    </application>
+162
+163</manifest> <!-- location ->  https://codelabs.developers.google.com/codelabs/while-in-use-location?hl=ko#4 -->

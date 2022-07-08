@@ -1,0 +1,82 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "f827dbb6e6e4de70e01b42ecaadea0f0",
+    "entities": [
+      {
+        "tableName": "HRVEntity",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`time` TEXT NOT NULL, `count` INTEGER NOT NULL, `bpm` REAL NOT NULL, `sdnn` REAL NOT NULL, `rmssd` REAL NOT NULL, `lf` REAL NOT NULL, `hf` REAL NOT NULL, `stress` REAL NOT NULL, `idx` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "time",
+            "columnName": "time",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "count",
+            "columnName": "count",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "bpm",
+            "columnName": "bpm",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sdnn",
+            "columnName": "sdnn",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "rmssd",
+            "columnName": "rmssd",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lf",
+            "columnName": "lf",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "hf",
+            "columnName": "hf",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "stress",
+            "columnName": "stress",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "idx",
+            "columnName": "idx",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "idx"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'f827dbb6e6e4de70e01b42ecaadea0f0')"
+    ]
+  }
+}
