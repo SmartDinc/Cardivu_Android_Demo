@@ -223,7 +223,7 @@ public class ModuleLinkedCamera {
                                                     if (vsionwh < facewh) visionFace = face;
                                                 }
                                             }
-                                            if (visionFace != null) {
+                                            if (visionFace != null && visionImage != null) {
                                                 faceGraphic.setData(visionFace, visionImage.getBitmap(), islast);
                                             }
                                             if (graphicOverlay != null) {

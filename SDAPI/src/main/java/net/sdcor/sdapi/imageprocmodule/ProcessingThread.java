@@ -282,6 +282,16 @@ public class ProcessingThread {
 
                                 matInput = new Mat();
                                 Bitmap bitmap = data.getBitmap();
+                                if (bitmap == null) {
+                                    try {
+                                        Thread.sleep(30);
+                                    } catch (Exception sleep_e) {
+                                        if (sleep_e.getMessage() != null) {
+                                            Log.e(TAG, "sleep_e - Thread: " + sleep_e.getMessage());
+                                        }
+                                    }
+                                    continue;
+                                }
                                 Utils.bitmapToMat(bitmap, matInput);
                             } catch (Exception e) {
                                 Log.e(TAG, "Bitmap To Mat " + e.getMessage());

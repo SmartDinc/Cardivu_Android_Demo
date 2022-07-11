@@ -16,7 +16,7 @@ object RetrofitDataSource {
     fun getInstance(): Retrofit? {
         if (retrofit == null) {
             val okHttpClient = OkHttpClient.Builder()
-                .connectTimeout(1, TimeUnit.MINUTES) // 연결 타임아웃
+                .connectTimeout(2, TimeUnit.MINUTES) // 연결 타임아웃
                 .readTimeout(30, TimeUnit.SECONDS) // 읽기 타임아웃
                 .writeTimeout(15, TimeUnit.SECONDS) // 쓰기 타임아웃
                 .build()

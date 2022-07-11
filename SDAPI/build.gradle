@@ -37,21 +37,17 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
-//    implementation group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
-    // https://www.reddit.com/r/libgdx/comments/i6vqbl/how_to_fix_dependency_resolution_errors/
-
     // https://mvnrepository.com/artifact/commons-net/commons-net // NTPUDPClient
     implementation group: 'commons-net', name: 'commons-net', version: '20030805.205232'
 
     // Firebase ML Kit
     implementation 'com.google.android.gms:play-services-vision:20.1.3'
 
+
+    // Detect faces with ML Kit on Android : https://developers.google.com/ml-kit/vision/face-detection/android
+//    implementation 'com.google.mlkit:face-detection:16.1.5'
     implementation 'com.google.firebase:firebase-ml-vision:24.1.0'
-    implementation 'com.google.firebase:firebase-ml-vision-barcode-model:16.1.2'
-//    implementation 'com.google.firebase:firebase-ml-vision:24.1.0'
-    implementation 'com.google.android.gms:play-services-mlkit-face-detection:17.0.1'
-    implementation 'com.google.mlkit:face-detection:16.1.5'
-    //https://developers.google.com/ml-kit/vision/face-detection/android
+
 
     // CameraX core library using the camera2 implementation
     def camerax_version = '1.2.0-alpha03'

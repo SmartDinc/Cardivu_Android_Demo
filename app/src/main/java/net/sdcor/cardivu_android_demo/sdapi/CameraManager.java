@@ -95,7 +95,7 @@ public class CameraManager extends AppCompatActivity implements CameraXConfig.Pr
 
                         Bitmap sideInversionImg = Bitmap.createBitmap(bitmap, 0, 0,
                                 bitmap.getWidth(), bitmap.getHeight(), sideInversion, false);
-                        if (mImageView != null) {
+                        if (mImageView != null && sideInversionImg != null) {
                             mImageView.setImageBitmap(sideInversionImg);
                         }
                     } catch (Exception e) {

@@ -30,9 +30,9 @@ class MeasureFragment : Fragment() {
     val TAG: String = this.javaClass.simpleName
     val timeFormat = SimpleDateFormat("yyyy-MM-dd HH:mm:ss")
 
-    val CompanyCode = "CompanyCode"                           // 회사코드
-    val CompanyKey = "CompanyKey"     // 회사 인증키
-    val CompanyClient = "CompanyClient_Key"                      // 회사의 회원별 고유키
+    val CompanyCode = "CompanyCode"             // 회사코드
+    val CompanyKey = "CompanyKey"               // 회사 인증키
+    val CompanyClient = "CompanyClient_Key"     // 회사의 회원별 고유키
     var START_IDX = 0                                   // 첫 시작시 홍채 변수 IDX
     var LAST_IDX = 0                                    // 마지막 홍채 변수 IDX
     val MeasureTime = 300                               // 총 측정할 시간
@@ -140,9 +140,9 @@ class MeasureFragment : Fragment() {
                                         }
                                     }
                                 }
-                                if (CountIDX >= MeasureTime) {
-                                    stopMEASURE()
-                                }
+//                                if (CountIDX >= MeasureTime) {
+//                                    stopMEASURE()
+//                                }
 
                                 Thread {
                                     requireActivity().runOnUiThread {

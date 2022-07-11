@@ -8,7 +8,6 @@ buildscript {
         classpath 'org.kt3k.gradle.plugin:coveralls-gradle-plugin:2.0.1'
 
         classpath 'com.google.gms:google-services:4.3.13'    // 4.3.10 -> 4.3.8 -> 4.3.13, https://bada744.tistory.com/161
-//        classpath "com.google.android.gms:play-services-safetynet:18.0.1"
     }
 }
 

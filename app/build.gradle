@@ -2,7 +2,7 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-kapt'
-    id 'com.google.gms.google-services' // <- 이 문장만 추가한다
+//    id 'com.google.gms.google-services' // <- 이 문장만 추가한다
 }
 
 android {

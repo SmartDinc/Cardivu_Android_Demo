@@ -52,10 +52,11 @@ public class CameraAnalyzerManager implements ImageAnalysis.Analyzer {
             FirebaseVisionImage image = FirebaseVisionImage.fromMediaImage(mediaImage, rotation);
             imageProxy.close();
 
-            moduleLinkedCamera.inputImage(image);
-
-            if (mOnBitmapListener != null) {
-                mOnBitmapListener.setBitmap(image.getBitmap());
+            if(image != null){
+                moduleLinkedCamera.inputImage(image);
+                if (mOnBitmapListener != null) {
+                    mOnBitmapListener.setBitmap(image.getBitmap());
+                }
             }
         } catch (Exception e) {
             Log.e(TAG, "imageProcessing: " + e.getMessage());

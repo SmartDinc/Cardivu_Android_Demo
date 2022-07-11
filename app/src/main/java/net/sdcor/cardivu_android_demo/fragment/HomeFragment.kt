@@ -21,9 +21,9 @@ import org.json.JSONObject
 class HomeFragment : Fragment() {
     val TAG: String = this.javaClass.simpleName
 
-    val CompanyCode = "CompanyCode"                           // 회사코드
-    val CompanyKey = "CompanyKey"     // 회사 인증키
-    val CompanyClient = "CompanyClient_Key"                      // 회사의 회원별 고유키
+    val CompanyCode = "CompanyCode"             // 회사코드
+    val CompanyKey = "CompanyKey"               // 회사 인증키
+    val CompanyClient = "CompanyClient_Key"     // 회사의 회원별 고유키
 
     private var textViewTime: TextView? = null
     private var textViewBpm: TextView? = null
@@ -78,16 +78,16 @@ class HomeFragment : Fragment() {
                                 LAST_IDX = -1
                             )?.execute()
                         if (response!!.isSuccessful) {
-                            Log.e(TAG, response.toString())
-                            Log.e(TAG, response.body()!!.string())
+//                            Log.e(TAG, response.toString())
+//                            Log.e(TAG, response.body()!!.string())
 
                             val responseStr =
                                 JSONObject(response.body()!!.string()).getString("Data")
-                            Log.e(TAG, responseStr.substring(1 until responseStr.length - 1))
 
                             if (responseStr.length > 5) {
                                 val ResultJson =
                                     JSONObject(responseStr.substring(1 until responseStr.length - 1))
+//                                Log.e(TAG, ResultJson.toString())
                                 requireActivity().runOnUiThread {
                                     try {
                                         textViewTime!!.text =

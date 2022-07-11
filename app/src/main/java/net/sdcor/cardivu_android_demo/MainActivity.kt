@@ -29,9 +29,6 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
     var progress_main: ProgressBar? = null
 
-    private lateinit var mPreferences: SharedPreferences
-    val sharedPrefFile = "app_preferences"
-
     companion object {
         val requestCode_systemPermission = 12041
 
@@ -44,9 +41,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
         PERMISSIONS_Camera.add(Manifest.permission.CAMERA)
 
-        mPreferences = getSharedPreferences(sharedPrefFile, MODE_PRIVATE)
         mOnlyPermission = OnlyPermission(activity = this, context = this)
-
 
         adapter = BottomMenuFragmentAdapter(
             supportFragmentManager,
@@ -97,18 +92,6 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         bottomNavigationView?.getMenu()?.findItem(R.id.menu_today)?.setChecked(true)
         progress_main = findViewById(R.id.progress_main)
         progress_main!!.visibility = View.GONE
-
-        try {
-            if (mPreferences.getString("UUID", "").toString() == "") {
-                val preferencesEditor: SharedPreferences.Editor = mPreferences.edit()
-                preferencesEditor.putString("UUID", UUID.randomUUID().toString().replace("-", ""))
-                preferencesEditor.apply()
-            }
-            Log.e(TAG, "UUID: " + mPreferences.getString("UUID", "").toString())
-        } catch (e: Exception) {
-            e.message
-        }
-
     }
 
     override fun onDestroy() {
